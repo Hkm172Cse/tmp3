@@ -1,0 +1,868 @@
+*{
+    margin:0px;
+}
+body{
+    font-family:    Verdana, Geneva, sans-serif;
+    
+}
+html{
+    font-family:    Verdana, Geneva, sans-serif;
+    font-size:14px;
+}
+/*==============================================*/
+/*============ MENU-VAR SECTION===============*/
+/*==============================================*/
+.menu-var{
+    background:#7EB347;
+    overflow:hidden;
+}
+.menu-var .link,
+.menu-var .menu-icon{
+    display:inline-block;
+    float:left;
+}
+.menu-var .link{
+    width: 40%;
+}
+.menu-var .menu-icon{
+    width:60%;
+}
+.menu-icon ul,
+.link ul{
+    margin:0;
+    padding: 0;
+}
+.link ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.menu-icon ul li a i::before{
+    color:#fff;
+}
+.menu-icon{
+    text-align:right;
+       
+}
+.link ul li{
+    padding: 10px 20px;
+}
+.menu-icon ul li {
+    padding:10px 10px;
+    border-left: 1px solid rgba(85, 85, 85, 0.38);
+    float: right;
+    
+}
+
+.menu-icon ul li:first-child {
+    border-right:1px solid rgba(85, 85, 85, 0.38);
+    
+}
+.menu-icon ul li:first-child:hover{
+    background: #3B5998;
+}
+.menu-icon ul li:nth-child(2):hover{
+    background:#C8232C;
+}
+.menu-icon ul li:nth-child(3):hover{
+    background:#00ACEE;
+}
+.menu-icon ul li:nth-child(4):hover{
+    background:#EA4C89;
+}
+.menu-icon ul li:nth-child(5):hover{
+    background:#0E76A8;
+}
+.menu-icon ul li:nth-child(6):hover{
+    background:#DB4A39;
+}
+.menu-icon ul li:nth-child(7):hover{
+    background:#EE802F;
+}
+
+
+.menu-icon ul li,
+.link ul li{
+    list-style-type:none;
+    display:inline-block;
+
+}
+
+
+
+/*==============================================*/
+/*============ REUSEBLE COMPUNANT===============*/
+/*==============================================*/
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+
+/*==============================================*/
+/*============ LOGO-SECTION ===============*/
+/*==============================================*/
+.logo-section{
+    overflow: hidden;
+}
+.logo .logo-text{
+    display:inline-block;
+    float:left;
+    width:70%;
+    padding-top:50px;
+}
+.logo .logo-adrs{
+    display:inline-block;
+    float:right;
+    width:30%;
+}
+.logo-adrs .left-adrs{
+    display:inline-block;
+    float:left;
+    
+}
+.logo-adrs .right-adrs{
+    display:inline-block;
+    float:right;
+    
+}
+.logo-adrs h2{
+    font-size:14px;
+    text-transform: uppercase;
+    color:#555;
+    padding-top:50px;
+}
+.logo-adrs p{
+    font-size:12px;
+    text-transform: uppercase;
+    color:rgba(85, 85, 85, 0.49);
+}
+
+.logo-section .logo{
+    width: 1100px;
+    height:133px;
+    
+}
+
+/*==============================================*/
+/*============ MAIN-NAV===============*/
+/*==============================================*/
+.main-nav{
+    background:#393939;
+    width:100%;
+    height:80px;
+    overflow:hidden;
+}
+.main-nav ul{
+    margin:0px;
+    padding: 0px;
+    width:100%px;
+    
+}
+.main-nav ul li{
+    list-style-type:none;
+    display:inline-block;
+    padding:32px;
+    float:left;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    font-size:14px;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight:600;
+    
+}
+.main-nav ul li:hover{
+    background:#7EB347;
+}
+.main-nav ul li:first-child{
+    background:#7EB347;
+}
+.main-nav ul li i{
+    color:#fff;
+    padding-right:5px;
+}
+
+/*=======dropdown=======*/
+.down1{
+    
+}
+.down-list{
+    background:rgba(0, 0, 0, 0.74);
+    display:none;
+    position:absolute;
+    margin-top:31px;
+    z-index: 2;
+    
+}
+.down-list a:link{
+    display:block;
+    border-bottom:1px solid black;
+    padding:10px;
+    text-transform: capitalize;
+    font-weight:400;
+    
+}
+.down-list a:hover{
+    background:#7EB347;
+}
+.down1:hover .down-list{
+    display:block;
+}
+/*====dropdown -2 ======*/
+.down-list2{
+    background:rgba(0, 0, 0, 0.34);
+    display:none;
+    position:absolute;
+    margin-top:31px;
+    z-index: 2;
+}
+.down-list2 a:link{
+    display:block;
+    border-bottom:1px solid black;
+    padding:10px;
+    text-transform: capitalize;
+    font-weight:400;
+}
+.down-list2 a:hover{
+    background:#7EB347;
+}
+.down2:hover .down-list2{
+    display:block;
+}
+/*========================LINE_DIV================*/
+.line-div{
+    width:100%;
+    height:3px;
+    z-index: 1;
+    background:#7EB347;
+}
+
+/*==============================================*/
+/*============ SLIDER-SECTION ===============*/
+/*==============================================*/
+.slid-section{
+     z-index: 1;
+    
+}
+.my-slider img{
+    width:100%;
+    height:400px;
+}
+.my-slider{
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+.item h1{
+    font-size:50px;
+    font-weight:600;
+    text-transform:uppercase;
+    width:800px;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    color:#fff;
+}
+.item a:link{
+    font-size:16px;
+    text-transform: uppercase;
+    text-decoration:none;
+    color:#fff;
+}
+/*========Item-1========================*/
+.item1{
+    position:relative;
+    width:100%;
+    margin:0px;
+}
+.item1 h1{
+    position:absolute;
+    top:100px;
+    left:350px;
+}
+.item1 .link1{
+    background:#EC9700;
+    padding:10px 30px;
+    position:absolute;
+    bottom:120px;
+    left:400px;
+}
+.item1 .link2{
+    background:#DC8B8A;
+    padding:10px 30px;
+    position:absolute;
+    bottom:120px;
+    right:400px;
+}
+/*===============Item-2====================*/
+.item2{
+    position:relative;
+    width:100%;
+    margin:0px;
+}
+.item2 h1{
+    position:absolute;
+    top:100px;
+    left:350px;
+}
+.item2 .link1{
+    background:#EC9700;
+    padding:10px 30px;
+    position:absolute;
+    bottom:120px;
+    left:400px;
+}
+.item2 .link2{
+    background:#DC8B8A;
+    padding:10px 30px;
+    position:absolute;
+    bottom:120px;
+    right:400px;
+}
+/*==========================Item-3=================*/
+.item3{
+    position:relative;
+    width:100%;
+    margin:0px;
+}
+.item3 h1{
+    position:absolute;
+    top:100px;
+    left:350px;
+}
+.item3 .link1{
+    background:#EC9700;
+    padding:10px 30px;
+    position:absolute;
+    bottom:120px;
+    left:400px;
+}
+.item3 .link2{
+    background:#DC8B8A;
+    padding:10px 30px;
+    position:absolute;
+    bottom:120px;
+    right:400px;
+}
+/*============owl-Classes ========*/
+.owl-dots{
+    position:absolute;
+    bottom:10px;
+    left:615px;
+    margin:0px;
+}
+/*==============================================*/
+/*============ UT-SECTION ===============*/
+/*==============================================*/
+.ut-section{
+    padding:60px 0px;
+}
+/*================= text ===================*/
+.text h2{
+    font-size:22px;
+    text-transform: capitalize;
+    color:#888888;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    word-wrap: break-word;
+    text-align:left;
+    margin-bottom:25px;
+}
+.text .small-para{
+    font-size:16px;
+    color:#888888;
+    margin-bottom:25px;
+}
+
+/*==================image-container=============*/
+.img-contain{
+    display:grid;
+    grid-template-columns:23% 23% 23% 23%;
+    grid-column-gap:20px;
+    justify-content:space-between;
+}
+.img-contain .img{
+    text-align:center;
+    border:1px solid rgba(85, 85, 85, 0.3);
+    padding-bottom:20px;
+    
+}
+.img-contain .img:hover{
+    background:#7EB347;
+    border:1px solid rgba(85, 85, 85, 0.3);
+    transition-delay: 0.1s;
+    transition:1s;
+}
+.img-contain .img:hover a{
+    color:#fff;
+    transition-delay:0.1s;
+    transition: 1s;
+}
+.img-contain img{
+    width:100%;
+    height:220px;
+    margin-bottom:20px;
+}
+.img a{
+    color:#7EB347;
+    text-decoration:none;
+    font-size:16px;
+    text-transform: capitalize;
+    
+}
+.img4{
+    position:relative;
+}
+/*==============================================*/
+/*============ GELLARY-SECTION ===============*/
+/*==============================================*/
+.gellary-section{
+    padding:20px 0px 60px 0px;
+}
+/*=========grid-block=======*/
+.gellary{
+    display:grid;
+    grid-template-columns:33.33% 33.33% 33.33%;
+    justify-content:space-between;
+    height:300px;
+    width:100%;
+}
+/*==========grid-item============*/
+.gellary .item{
+    
+     
+}
+/*==========item-1============*/
+.gellary .div1{
+    grid-row-start: 1;
+    grid-row-end:3;
+    background:#355;
+    
+}
+.gellary .div1 a:link{
+    color:#7EB347;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    text-transform: capitalize;
+    font-size:23px;
+    
+    
+}
+.gellary .div1 .head{
+    margin:50px 80px 20px 50px;
+}
+.gellary .div1 .small-para{
+    margin:0px 80px 20px 50px;
+    color:#fff;
+}
+/*==========item-2============*/
+.gellary .div2{
+    background: url(../image/gallery1.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.gellary .div2 .hide-div{
+    
+    width:96%;
+    height:93%;
+    
+    position:relative;
+    display:none;
+}
+.gellary .div2  .hide-div .tx{
+    font-size:20px;
+    text-transform: capitalize;
+    color:#7EB347;
+}
+.gellary .div2  .hide-div p{
+   margin-left:20px;
+    margin-bottom: 20px;
+}
+.gellary .div2  .hide-div i{
+    color:#fff;
+    font-size:12px;
+    padding-left:20px;
+   
+}
+.gellary .div2  .hide-div span{
+    color:#fff;
+    
+    
+}
+.gellary .div2  .hide-div .tag{
+    color:#7EB347;
+    text-transform: lowercase;
+}
+.div2 .hide-div .position{
+    position: absolute;
+    bottom:10px;
+}
+
+.gellary .div2:hover .hide-div{
+    display:block;
+
+}
+.gellary .div2:hover{
+    background:linear-gradient(rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.65)), url(../image/gallery1.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/*==========item-3============*/
+.gellary .div3{
+    background: url(../image/gellary2.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.gellary .div3 .hide-div{
+    
+    width:96%;
+    height:93%;
+    
+    position:relative;
+    display:none;
+}
+.gellary .div3  .hide-div .tx{
+    font-size:20px;
+    text-transform: capitalize;
+    color:#7EB347;
+}
+.gellary .div3  .hide-div p{
+   margin-left:20px;
+    margin-bottom: 20px;
+}
+.gellary .div3  .hide-div i{
+    color:#fff;
+    font-size:12px;
+    padding-left:20px;
+   
+}
+.gellary .div3  .hide-div span{
+    color:#fff;
+    
+    
+}
+.gellary .div3  .hide-div .tag{
+    color:#7EB347;
+    text-transform: lowercase;
+}
+.div3 .hide-div .position{
+    position: absolute;
+    bottom:10px;
+}
+
+.gellary .div3:hover .hide-div{
+    display:block;
+
+}
+
+
+
+.gellary .div3:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.65)), url(../image/gellary2.jpg);
+    background-position:center center;
+    background-size:cover;
+}
+/*==========item-4============*/
+.gellary .div4{
+   background: url(../image/gellary3.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.gellary .div4 .hide-div{
+    
+    width:96%;
+    height:93%;
+    
+    position:relative;
+    display:none;
+}
+.gellary .div4  .hide-div .tx{
+    font-size:20px;
+    text-transform: capitalize;
+    color:#7EB347;
+}
+.gellary .div4  .hide-div p{
+   margin-left:20px;
+    margin-bottom: 20px;
+}
+.gellary .div4  .hide-div i{
+    color:#fff;
+    font-size:12px;
+    padding-left:20px;
+   
+}
+.gellary .div4  .hide-div span{
+    color:#fff;
+    
+    
+}
+.gellary .div4  .hide-div .tag{
+    color:#7EB347;
+    text-transform: lowercase;
+}
+.div4 .hide-div .position{
+    position: absolute;
+    bottom:10px;
+}
+
+.gellary .div4:hover .hide-div{
+    display:block;
+
+}
+
+.gellary .div4:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.65)), url(../image/gellary3.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/*======================item-5=================*/
+.gellary .div5{
+    background: url(../image/gellay4.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.gellary .div5 .hide-div{
+    
+    width:96%;
+    height:93%;
+    
+    position:relative;
+    display:none;
+}
+.gellary .div5  .hide-div .tx{
+    font-size:20px;
+    text-transform: capitalize;
+    color:#7EB347;
+}
+.gellary .div5  .hide-div p{
+   margin-left:20px;
+    margin-bottom: 20px;
+}
+.gellary .div5  .hide-div i{
+    color:#fff;
+    font-size:12px;
+    padding-left:20px;
+   
+}
+.gellary .div5  .hide-div span{
+    color:#fff;
+    
+    
+}
+.gellary .div5  .hide-div .tag{
+    color:#7EB347;
+    text-transform: lowercase;
+}
+.div5 .hide-div .position{
+    position: absolute;
+    bottom:10px;
+}
+
+.gellary .div5:hover .hide-div{
+    display:block;
+
+}
+
+
+.gellary .div5:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.65)), url(../image/gellay4.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/*==============================================*/
+/*============ IDENTY-SECTION ===============*/
+/*==============================================*/
+.identi-section{
+    text-align: center;
+    padding:30px 0px 70px 0px;
+}
+.identi-section h2{
+    color: #888888;
+    text-transform:capitalize;
+    font-family: Georgia,"Times New Roman",Times,serif;
+}
+.identi-icon{
+    display:grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    justify-content:space-between;
+    grid-column-gap:10px;
+    
+    
+}
+.identi-icon .item{
+    text-align:center;
+}
+.identi-icon .item i{
+    font-size:50px;
+    margin:20px 0px 25px 0px;
+    color:#888888;
+    
+}
+.identi-icon .item p{
+    margin:0px 0px 25px 0px;
+    color:#888888;
+}
+.identi-icon .item a{
+    text-transform:lowercase;
+    font-size:16px;
+    color: #7EB347;
+}
+/*==============================================*/
+/*============ FIND-US-SECTION ===============*/
+/*==============================================*/
+.find-us{
+    text-align:center;
+    background:#282828;
+    padding:40px 0px 10px 0px;
+}
+.find-field{
+    display:grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 150px;
+    justify-content:space-between;
+    grid-column-gap:15px;
+}
+.find{
+    
+}
+.find p{
+    color:#fff;
+    font-size:12px;
+}
+.find .address{
+    font-size:24px;
+    color:#BEBEBE;
+}
+
+/*===============field1=================*/
+.field1 i{
+    font-size:25px;
+    padding:20px 23px;
+    border-radius:50%;
+    background:#03A1CE;
+    border:2px solid #fff;
+    margin:20px;
+    color:#fff;
+}
+.field1 p a{
+    color:#7EB347;
+    text-decoration: none;
+    font-size:20px;
+    text-transform: capitalize;
+}
+/*==================field2===============*/
+.field2 i{
+    font-size:25px;
+    padding:20px;
+    border-radius:50%;
+    background:#DC8B8A;;
+    border:2px solid #fff;
+    margin:20px;
+    color:#fff;
+}
+.field2 sub,
+.field2 sup{
+    font-size:25px;
+}
+/*===================field3==================*/
+.field3 i{
+    font-size:25px;
+    padding:20px;
+    border-radius:50%;
+    background:#EC9700;
+    border:2px solid #fff;
+    margin:20px;
+    color:#fff;
+}
+.find-us .container:after{
+    content: "";
+    display:block;
+    clear:both;
+    background:rgba(136, 136, 136, 0.22);
+    width:100%;
+    margin:auto;
+    height:1px;
+    margin-top:100px;
+}
+/*==============================================*/
+/*============ FOOTER-SECTION ===============*/
+/*==============================================*/
+footer{
+    padding:80px;
+    background:#282828;
+}
+.footer-contain{
+    display:grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-column-gap:15px;
+    justify-content: space-between;
+    
+}
+footer .item{
+    
+}
+.footer-contain h3{
+    font-size:20px;
+    font-weight:500;
+    color:#fff;
+    padding-bottom: 40px;
+}
+/*==================Legendary========================*/
+.Legendary p{
+    color:#FFF;
+    padding: 3px;
+}
+.Legendary .address{
+    padding-top: 15px;
+}
+/*==================QuickLinks========================*/
+.QuickLinks ul li{
+    list-style-type:none;
+    display:block;
+    margin:10px 0px;
+}
+.QuickLinks ul{
+    margin:0px;
+    padding:0px
+}
+.QuickLinks ul li a:link{
+    text-transform: capitalize;
+    color:#7EB347;
+    font-size:14px;
+}
+/*==================Blog========================*/
+.Blog .link a{
+    color:#7EB347;
+    text-transform:capitalize;
+    font-size:23px;
+}
+.Blog .date{
+    font-size:10px;
+    padding-bottom:15px;
+}
+.Blog p{
+    font-size: 16px;
+    color:#fff;
+}
+/*==================Newsletter========================*/
+.Newsletter input{
+    width:100%;
+    box-sizing:border-box;
+    padding:10px;
+    margin-bottom:15px;
+    background:#393939;
+    border:none;
+    
+}
+.Newsletter button{
+    background:#7EB347;
+    border:none;
+    color:#fff;
+    padding:8px 20px;
+    font-size:16px;
+}
